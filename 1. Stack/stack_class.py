@@ -35,6 +35,7 @@ class Stack:
         return self.top
     
     def show(self):
+        """Note that this function is only for visualization and delete all values from stack to show its structure"""
         print_text = ''
         while True:
             if not self.is_empty():
